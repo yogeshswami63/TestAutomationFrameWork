@@ -1,0 +1,20 @@
+{
+	"data":[
+		
+		{
+			"emailAddress": "yogeshswami@gmail.com",
+			"password":"password123",
+			"MAX_NUM_OF_ATTEMPTS": 3
+			
+		},
+		{
+					"emailAddress": "gopas18827@iridales.com",
+					"password":"Password123",
+					"MAX_NUM_OF_ATTEMPTS": 3
+					
+				}
+		
+		
+		
+	]
+}
