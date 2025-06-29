@@ -29,6 +29,13 @@ public final class HomePage extends BrowserUtility{
 		
 	}
 
+	public HomePage(WebDriver driver) {
+		super(driver);
+		goToWebSite(PropertiesUtil.readProperties(Env.QA, "URL"));
+	}
+
+
+
 	private static final By SIGN_IN_LINK_LOCATOR=By.xpath("//a[contains(text(),'Sign in')]");
 	
 	public LoginPage goToLoginPage() {
@@ -36,6 +43,13 @@ public final class HomePage extends BrowserUtility{
 		LoginPage loginPage=new LoginPage(getDriver());
 		return loginPage;
 	}
+
 	
+	public void quit() {
+        if (getDriver() != null) {
+            getDriver().quit();
+        }
+    }
+
 
 }

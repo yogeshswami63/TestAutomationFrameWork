@@ -2,26 +2,48 @@
 <testng-results ignored="0" total="5" passed="2" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-28T17:06:38 IST" name="AutomationPractice" finished-at="2025-06-28T17:08:58 IST" duration-ms="139314">
+  <suite started-at="2025-06-29T17:42:48 IST" name="AutomationPractice" finished-at="2025-06-29T17:44:05 IST" duration-ms="76832">
     <groups>
       <group name="sanity">
-        <method signature="LoginTest3.loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest3@61544ae6]" name="loginTest" class="com.ui.tests.LoginTest3"/>
-        <method signature="LoginTest3.loginTestCSVData(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest3@61544ae6]" name="loginTestCSVData" class="com.ui.tests.LoginTest3"/>
-        <method signature="LoginTest3.loginTestExcelData(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest3@61544ae6]" name="loginTestExcelData" class="com.ui.tests.LoginTest3"/>
+        <method signature="LoginTest3.loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest3@332796d3]" name="loginTest" class="com.ui.tests.LoginTest3"/>
+        <method signature="LoginTest3.loginTestCSVData(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest3@332796d3]" name="loginTestCSVData" class="com.ui.tests.LoginTest3"/>
+        <method signature="LoginTest3.loginTestExcelData(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest3@332796d3]" name="loginTestExcelData" class="com.ui.tests.LoginTest3"/>
       </group> <!-- sanity -->
       <group name="e2e">
-        <method signature="LoginTest3.loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest3@61544ae6]" name="loginTest" class="com.ui.tests.LoginTest3"/>
-        <method signature="LoginTest3.loginTestCSVData(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest3@61544ae6]" name="loginTestCSVData" class="com.ui.tests.LoginTest3"/>
-        <method signature="LoginTest3.loginTestExcelData(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest3@61544ae6]" name="loginTestExcelData" class="com.ui.tests.LoginTest3"/>
+        <method signature="LoginTest3.loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest3@332796d3]" name="loginTest" class="com.ui.tests.LoginTest3"/>
+        <method signature="LoginTest3.loginTestCSVData(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest3@332796d3]" name="loginTestCSVData" class="com.ui.tests.LoginTest3"/>
+        <method signature="LoginTest3.loginTestExcelData(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest3@332796d3]" name="loginTestExcelData" class="com.ui.tests.LoginTest3"/>
       </group> <!-- e2e -->
     </groups>
-    <test started-at="2025-06-28T17:06:38 IST" name="UIAutomation" finished-at="2025-06-28T17:08:58 IST" duration-ms="139314">
+    <test started-at="2025-06-29T17:42:48 IST" name="UIAutomation" finished-at="2025-06-29T17:44:05 IST" duration-ms="76832">
       <class name="com.ui.tests.LoginTest3">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ui.tests.LoginTest3@61544ae6]" started-at="2025-06-28T17:06:39 IST" name="setUp" description="Load home page of website" finished-at="2025-06-28T17:06:58 IST" duration-ms="19246" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestResult)[pri:0, instance:com.ui.tests.LoginTest3@332796d3]" started-at="2025-06-29T17:42:49 IST" name="setup" description="Load the Homepage of the website" finished-at="2025-06-29T17:43:03 IST" duration-ms="14110" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest3.loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest3@332796d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest3@61544ae6]" started-at="2025-06-28T17:06:58 IST" name="loginTest" description="Verifies login functionality with vaid credentias" data-provider="LoginTestDataProvider" finished-at="2025-06-28T17:07:03 IST" duration-ms="4533" status="FAIL">
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest3@332796d3]" started-at="2025-06-29T17:43:03 IST" name="loginTest" description="Verifies login functionality with vaid credentias" data-provider="LoginTestDataProvider" finished-at="2025-06-29T17:43:06 IST" duration-ms="2573" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -37,9 +59,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c05c83c0546de08d7de0008c47df12dc, findElement {value=//a[@title='View my customer account']/span, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58875}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58875/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c05c83c0546de08d7de0008c47df12dc]]>
+Command: [c91e16dcdbe3dde9ef6b7c8a4824cd16, findElement {value=//a[@title='View my customer account']/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50191}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50191/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c91e16dcdbe3dde9ef6b7c8a4824cd16]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='View my customer account']/span"}
@@ -48,9 +70,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c05c83c0546de08d7de0008c47df12dc, findElement {value=//a[@title='View my customer account']/span, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58875}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58875/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c05c83c0546de08d7de0008c47df12dc
+Command: [c91e16dcdbe3dde9ef6b7c8a4824cd16, findElement {value=//a[@title='View my customer account']/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50191}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50191/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c91e16dcdbe3dde9ef6b7c8a4824cd16
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
@@ -65,7 +87,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at com.utility.BrowserUtility.getVisibleText(BrowserUtility.java:105)
+at com.utility.BrowserUtility.getVisibleText(BrowserUtility.java:103)
 at com.ui.pages.MyAccountPage.getUserName(MyAccountPage.java:18)
 at com.ui.tests.LoginTest3.loginTest(LoginTest3.java:35)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
@@ -100,11 +122,37 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ui.tests.LoginTest3@61544ae6]" started-at="2025-06-28T17:07:04 IST" name="setUp" description="Load home page of website" finished-at="2025-06-28T17:07:25 IST" duration-ms="21248" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ui.tests.LoginTest3@332796d3]" started-at="2025-06-29T17:43:06 IST" name="tearDown" description="Tear Down the browser" finished-at="2025-06-29T17:43:06 IST" duration-ms="256" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest3@61544ae6]" started-at="2025-06-28T17:07:25 IST" name="loginTest" description="Verifies login functionality with vaid credentias" data-provider="LoginTestDataProvider" finished-at="2025-06-28T17:07:28 IST" duration-ms="3279" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestResult)[pri:0, instance:com.ui.tests.LoginTest3@332796d3]" started-at="2025-06-29T17:43:06 IST" name="setup" description="Load the Homepage of the website" finished-at="2025-06-29T17:43:15 IST" duration-ms="8459" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest3.loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest3@332796d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest3@332796d3]" started-at="2025-06-29T17:43:15 IST" name="loginTest" description="Verifies login functionality with vaid credentias" data-provider="LoginTestDataProvider" finished-at="2025-06-29T17:43:20 IST" duration-ms="5697" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -115,11 +163,37 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ui.tests.LoginTest3@61544ae6]" started-at="2025-06-28T17:07:28 IST" name="setUp" description="Load home page of website" finished-at="2025-06-28T17:07:55 IST" duration-ms="26928" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ui.tests.LoginTest3@332796d3]" started-at="2025-06-29T17:43:20 IST" name="tearDown" description="Tear Down the browser" finished-at="2025-06-29T17:43:21 IST" duration-ms="710" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginTestCSVData(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest3@61544ae6]" started-at="2025-06-28T17:07:55 IST" name="loginTestCSVData" description="Verifies login functionality with vaid credentias" data-provider="loginCSVDataProvider" finished-at="2025-06-28T17:07:59 IST" duration-ms="3944" status="FAIL">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestResult)[pri:0, instance:com.ui.tests.LoginTest3@332796d3]" started-at="2025-06-29T17:43:22 IST" name="setup" description="Load the Homepage of the website" finished-at="2025-06-29T17:43:25 IST" duration-ms="3512" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest3.loginTestCSVData(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest3@332796d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTestCSVData(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest3@332796d3]" started-at="2025-06-29T17:43:25 IST" name="loginTestCSVData" description="Verifies login functionality with vaid credentias" data-provider="loginCSVDataProvider" finished-at="2025-06-29T17:43:31 IST" duration-ms="5949" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -135,9 +209,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [40304656eb6a3cc8ad57c3d7eb11275d, findElement {value=//a[@title='View my customer account']/span, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58945}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58945/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 40304656eb6a3cc8ad57c3d7eb11275d]]>
+Command: [19f993644ed3d71fbf4281dd3bb6a500, findElement {value=//a[@title='View my customer account']/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50267}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50267/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 19f993644ed3d71fbf4281dd3bb6a500]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='View my customer account']/span"}
@@ -146,9 +220,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [40304656eb6a3cc8ad57c3d7eb11275d, findElement {value=//a[@title='View my customer account']/span, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58945}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58945/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 40304656eb6a3cc8ad57c3d7eb11275d
+Command: [19f993644ed3d71fbf4281dd3bb6a500, findElement {value=//a[@title='View my customer account']/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.122, chrome: {chromedriverVersion: 137.0.7151.119 (e0ac9d12dff..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50267}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50267/devtoo..., se:cdpVersion: 137.0.7151.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 19f993644ed3d71fbf4281dd3bb6a500
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
@@ -163,7 +237,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at com.utility.BrowserUtility.getVisibleText(BrowserUtility.java:105)
+at com.utility.BrowserUtility.getVisibleText(BrowserUtility.java:103)
 at com.ui.pages.MyAccountPage.getUserName(MyAccountPage.java:18)
 at com.ui.tests.LoginTest3.loginTestCSVData(LoginTest3.java:46)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
@@ -198,11 +272,37 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestCSVData -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ui.tests.LoginTest3@61544ae6]" started-at="2025-06-28T17:08:00 IST" name="setUp" description="Load home page of website" finished-at="2025-06-28T17:08:17 IST" duration-ms="17120" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ui.tests.LoginTest3@332796d3]" started-at="2025-06-29T17:43:31 IST" name="tearDown" description="Tear Down the browser" finished-at="2025-06-29T17:43:32 IST" duration-ms="423" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginTestCSVData(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest3@61544ae6]" started-at="2025-06-28T17:08:17 IST" name="loginTestCSVData" description="Verifies login functionality with vaid credentias" data-provider="loginCSVDataProvider" finished-at="2025-06-28T17:08:22 IST" duration-ms="5120" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestResult)[pri:0, instance:com.ui.tests.LoginTest3@332796d3]" started-at="2025-06-29T17:43:32 IST" name="setup" description="Load the Homepage of the website" finished-at="2025-06-29T17:43:39 IST" duration-ms="6964" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest3.loginTestCSVData(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest3@332796d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTestCSVData(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest3@332796d3]" started-at="2025-06-29T17:43:39 IST" name="loginTestCSVData" description="Verifies login functionality with vaid credentias" data-provider="loginCSVDataProvider" finished-at="2025-06-29T17:43:42 IST" duration-ms="3239" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -213,11 +313,37 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestCSVData -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ui.tests.LoginTest3@61544ae6]" started-at="2025-06-28T17:08:25 IST" name="setUp" description="Load home page of website" finished-at="2025-06-28T17:08:52 IST" duration-ms="26565" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ui.tests.LoginTest3@332796d3]" started-at="2025-06-29T17:43:42 IST" name="tearDown" description="Tear Down the browser" finished-at="2025-06-29T17:43:42 IST" duration-ms="396" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="loginTestExcelData(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest3@61544ae6]" started-at="2025-06-28T17:08:52 IST" name="loginTestExcelData" description="Verifies login functionality with vaid credentias" data-provider="loginExcelDataProvider" finished-at="2025-06-28T17:08:57 IST" duration-ms="5002" status="FAIL">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String,boolean,boolean,org.testng.ITestResult)[pri:0, instance:com.ui.tests.LoginTest3@332796d3]" started-at="2025-06-29T17:43:46 IST" name="setup" description="Load the Homepage of the website" finished-at="2025-06-29T17:43:58 IST" duration-ms="11814" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest3.loginTestExcelData(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest3@332796d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTestExcelData(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest3@332796d3]" started-at="2025-06-29T17:43:58 IST" name="loginTestExcelData" description="Verifies login functionality with vaid credentias" data-provider="loginExcelDataProvider" finished-at="2025-06-29T17:44:02 IST" duration-ms="4608" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -270,6 +396,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTestExcelData -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ui.tests.LoginTest3@332796d3]" started-at="2025-06-29T17:44:02 IST" name="tearDown" description="Tear Down the browser" finished-at="2025-06-29T17:44:05 IST" duration-ms="2802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.ui.tests.LoginTest3 -->
     </test> <!-- UIAutomation -->
   </suite> <!-- AutomationPractice -->

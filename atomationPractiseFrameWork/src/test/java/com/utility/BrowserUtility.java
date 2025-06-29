@@ -20,7 +20,7 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 
 import com.constants.Browser;
 
-public abstract class BrowserUtility {
+public  class BrowserUtility {
 
 	private static ThreadLocal<WebDriver> driver = new ThreadLocal<WebDriver>();
 
@@ -31,7 +31,6 @@ public abstract class BrowserUtility {
 	public BrowserUtility(WebDriver driver) {
 		super();
 		this.driver.set(driver);
-		;
 
 	}
 
@@ -67,9 +66,8 @@ public abstract class BrowserUtility {
 
 			}
 
-			
 		} else if (browserName == Browser.FIREFOX) {
-			
+
 			if (isHeadLess) {
 				FirefoxOptions option = new FirefoxOptions();
 				option.addArguments("--headless=old"); // open browser in headless mode
@@ -79,7 +77,7 @@ public abstract class BrowserUtility {
 				driver.set(new FirefoxDriver());
 
 			}
-			
+
 		}
 	}
 
@@ -124,4 +122,5 @@ public abstract class BrowserUtility {
 		}
 		return path;
 	}
+
 }
